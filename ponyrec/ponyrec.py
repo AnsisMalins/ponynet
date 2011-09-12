@@ -1,7 +1,6 @@
 from cv import *
 from __builtin__ import min,max,sum
-from numpy import zeros
-from collections import deque
+import numpy as np
 from pickle import load,dump
 import gzip
 import sys
@@ -17,6 +16,13 @@ if len(sys.argv)>1:
 
 print "Input:"+inputfile
 image = imread(inputfile)
+
+newcol = CV_RGB(127,127,127)
+
+lo = 20
+up = 20
+connectivity = 4
+flags = connectivity + (255 << 8) + CV_FLOODFILL_FIXED_RANGE
 
 def fullff(image):
     mask = np.zeros((image.shape[0]+2,image.shape[1]+2),dtype='uint8')
