@@ -1,0 +1,26 @@
+#summary The Brainstorming Page
+#labels Phase-Requirements,Phase-Design
+
+= Outline =
+
+ # gather data
+  # decide how to annotate images fast/best
+   # build a web application for crowdsourcing?
+   # what information do we need?
+ # come up with good features
+  # color - ponies have distinctive colors. sometimes this does not hold true.
+  # cutie mark - a 2d image - easy, all invariances are known
+  # shape? - not very good on its own as many ponies share the same model, but crucial for bw images and recolors. also, how do we deal with humanized mlp?
+  # remember: we don’t have to do this if we have lots of data and computing power. but we don’t.
+  # color histogram
+  # neural net + sliding windows?
+   # what’s the smallest possible pony?
+ # implement the system
+  # choose platform vs cross platform
+  # modularity
+  # use cases and applications
+   # automatic organization of the pony folder
+   # pony tineye
+   # automatic transcription of episodes
+  # what is the pipeline?
+   # hisrogram -> sliding window -> neural net
