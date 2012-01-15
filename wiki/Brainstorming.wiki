@@ -4,6 +4,7 @@
 = Outline =
 
  # gather data
+ # start with alpha channel PNGs from ponibooru et al
   # decide how to annotate images fast/best
    # build a web application for crowdsourcing?
    # what information do we need?
