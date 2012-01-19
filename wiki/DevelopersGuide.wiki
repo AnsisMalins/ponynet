@@ -1,0 +1,16 @@
+#summary Setting up the development environment and writing code.
+#labels Phase-Implementation
+
+= Introduction =
+
+Porkchop sandwitches!
+
+= Windows =
+
+http://octave.sourceforge.net/
+http://www.microsoft.com/visualstudio/en-us/products/2008-editions/express
+
+= Linux =
+
+sudo apt-get install octave
+sudo apt-get install monodevelop
