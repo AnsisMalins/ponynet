@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49205631-a782-44e2-8879-e9bdc669d7c6}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>ponyrec.py</StartupFile>
+    <SearchPath>C:\Users\Ansis\Downloads\opencv\build\python\2.7</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <AssemblyName>ponyrec</AssemblyName>
+    <Name>ponyrec</Name>
+    <RootNamespace>ponyrec</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>2af0f10d-7135-4994-9156-5d01c9c11b7e</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>C:\Users\Ansis\Downloads\131315585848.png</CommandLineArguments>
+    <InterpreterPath />
+    <InterpreterArguments />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ponyrec.py" />
+  </ItemGroup>
+</Project>

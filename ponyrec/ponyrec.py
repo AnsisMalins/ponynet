@@ -5,6 +5,7 @@ from pickle import load,dump
 import gzip
 import sys
 import os
+from matplotlib.pyplot import *
 
 loadgraph = True
 loadregions = True
