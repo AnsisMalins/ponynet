@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C# Express 2008
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "findpony", "findpony\findpony.csproj", "{A0F61939-3804-4F28-AD0B-D8A1369CAA3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trainer", "trainer\trainer.csproj", "{89D4C86C-FA19-4A43-9563-648DB3FE74B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deviantart", "deviantart\deviantart.csproj", "{23968DFD-3ED5-4ACD-B361-007CBBE33902}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{89D4C86C-FA19-4A43-9563-648DB3FE74B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D4C86C-FA19-4A43-9563-648DB3FE74B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D4C86C-FA19-4A43-9563-648DB3FE74B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23968DFD-3ED5-4ACD-B361-007CBBE33902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23968DFD-3ED5-4ACD-B361-007CBBE33902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23968DFD-3ED5-4ACD-B361-007CBBE33902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23968DFD-3ED5-4ACD-B361-007CBBE33902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
