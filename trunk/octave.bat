@@ -1,0 +1,1 @@
+"%ProgramFiles%\Octave\Octave3.4.3_gcc4.5.2\Octave3.4.3_gcc4.5.2\bin\octave-3.4.3.exe" --eval "PS1('> ')" --persist
