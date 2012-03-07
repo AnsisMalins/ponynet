@@ -12,9 +12,7 @@
 = Linux =
 
 {{{
-sudo apt-get install octave
-sudo apt-get install monodevelop
-sudo apt-get install subversion
+sudo apt-get install monodevelop octave subversion
 }}}
 
 [http://code.google.com/p/ponynet/source/checkout Follow instructions to check out the source code.]
